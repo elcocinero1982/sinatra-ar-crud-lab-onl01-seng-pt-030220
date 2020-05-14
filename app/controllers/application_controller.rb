@@ -8,8 +8,7 @@ class ApplicationController < Sinatra::Base
     set :views, 'app/views'
   end
 
-  get '/' do
-  end
+ 
   get '/articles/new' do
 
     erb :new
